@@ -15,6 +15,5 @@ public class TESTY {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Ahoj světe");
     }
 }
