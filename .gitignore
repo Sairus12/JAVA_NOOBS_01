@@ -5,3 +5,4 @@
 *.war
 *.ear
 /TESTY/nbproject/private/
+/TESTY/build/
