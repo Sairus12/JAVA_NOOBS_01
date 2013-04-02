@@ -1,8 +1,8 @@
-package testy;
+package TESTY;
 
 import java.util.Scanner;
 
-public class TESTY {
+public class KALKULACKA {
 
     public static void main(String[] args) {
         // TODO code application logic here
