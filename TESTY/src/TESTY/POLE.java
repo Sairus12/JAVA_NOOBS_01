@@ -6,8 +6,7 @@ import java.util.Arrays;
 public class POLE {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in, "UTF-8");
-        /*
-        
+                
         int a;
         int[] x;
         System.out.println("Zadej číslo, po které se budou vypisovat čísla: ");
@@ -22,21 +21,22 @@ public class POLE {
             System.out.println(i);
         }
         
-        */
+        /******************************************************************************************/
         
-        /*
         String[] simpsonovi = {"Meggie","Marge","Homer","Lisa","Bart"};
         Arrays.sort(simpsonovi);
         for (String i : simpsonovi)
             System.out.printf("%s ",i);
-        
+
+        /******************************************************************************************/
+
         int[] cisla = {1,5,6,8,2,4};
         Arrays.sort(cisla);
         for (int i : cisla)
             System.out.printf("%d ",i);
         
-        */
-        /*
+        /******************************************************************************************/
+
         String[] simpsonovi = {"Meggie","Marge","Homer","Lisa","Bart"};
         System.out.println("Zadej jméno Simpsona (z rodiny Simpsonů): ");
         String simpson = sc.nextLine();
@@ -47,7 +47,8 @@ public class POLE {
         {   System.out.println("Ano, je to Simpson!");  }
         else
         {   System.out.println("Ty kryple, nepoznáš Simpsonovi?!"); }
-        */
+
+        /******************************************************************************************/
         
         System.out.println("Vítej v programu ke spočítání neváženého průměru známek.");
         System.out.println("Zadej počet známek: ");
