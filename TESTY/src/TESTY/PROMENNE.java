@@ -7,7 +7,7 @@ public class PROMENNE {
         
         Scanner sc = new Scanner(System.in,"UTF-8");
         
-        /* String x = "Krokonosohroch";
+        String x = "Krokonosohroch";
         System.out.println(x.startsWith("krok"));
         System.out.println(x.endsWith("hroch"));
         System.out.println(x.contains("nos"));
@@ -22,30 +22,30 @@ public class PROMENNE {
         System.out.println("Přeje si hráč vypnout zvuk?");
         System.out.println(config.contains("nosound"));
         System.out.println("Přeje si hráč hru automaticky ukládat?");
-        System.out.println(config.contains("autosave")); */
+        System.out.println(config.contains("autosave"));
         
-        /* System.out.println("Zadej číslo: ");
+        System.out.println("Zadej číslo: ");
         String s = sc.nextLine();
         System.out.println("Zadali jste text: " + s);
         System.out.println("Text po funkci trim: " + s.trim());
         int a = Integer.parseInt(s.trim());
-        System.out.println("Převedl jsem zadaný text na číslo parsováním, zadal jste: " + a); */
+        System.out.println("Převedl jsem zadaný text na číslo parsováním, zadal jste: " + a);
           
-        /* String s = "C# je nejlepší";
-        System.out.println(s);
-        s = s.replace("C#","Java");
-        System.out.println(s);
+        String z = "C# je nejlepší";
+        System.out.println(z);
+        z = z.replace("C#","Java");
+        System.out.println(z);
         
-        int a = 10;
+        int t = 10;
         int b = 20;
-        int c = a + b;
-        String x = String.format("Když sečteme %d a %d dostaneme %d",a,b,c);
-        System.out.println(x);
-        System.out.printf("Když sečteme %d a %d dostaneme %d\n",a,b,c); */
+        int c = t + b;
+        String u = String.format("Když sečteme %d a %d dostaneme %d",t,b,c);
+        System.out.println(u);
+        System.out.printf("Když sečteme %d a %d dostaneme %d\n",t,b,c);
         
         System.out.println("Zadejte vaše jméno:");
         String jmeno = sc.nextLine();
-        System.out.printf("Délka vašeho jména je: %d", jmeno.length());
+        System.out.printf("Délka vašeho jména je: %d\n", jmeno.length());
         
     }   
 }
