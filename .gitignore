@@ -1,8 +1,5 @@
-*.class
 
 # Package Files #
-*.jar
 *.war
 *.ear
 /TESTY/nbproject/private/
-/TESTY/dist/
